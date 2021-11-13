@@ -1,0 +1,153 @@
+/****************************** TAG SELECTOR **********************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  color: #333333;
+  font-size: 1.1rem;
+}
+
+h1 {
+  margin: 5% auto 0 auto;
+  /* 'auto' value works on block elements (for centering) having width as well. */
+  font-size: 5.625rem; /* 90px = 562.5% = 5.625em = 5.625rem */
+  /* 16px = 100% = 1em */
+  width: 50%;
+  font-family: 'Kaushan Script', cursive;
+  color: #FFB677;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  color: #FF8364;
+  font-weight: normal;
+}
+
+h3,a {
+  color: #5F6CAF;
+}
+
+/**************************** CLASS SELECTOR **********************************/
+
+.top-container {
+  background-color: #EDF7FA;
+  position: relative;
+  padding: 7% 0 0;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+.software-text {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+}
+
+.middle-container {        /* All CSS properties are in alphabetical order */
+}
+
+hr {
+  background-color: white;
+  border-color: #5F6CAF;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 10px; /* default - 1px */
+  height: 0;
+  width: 30%;
+}
+
+.profile {
+  width: 30%;
+  margin: 8% auto;
+  line-height: 2;
+}
+
+.skills {
+  margin: 8% 0 10% 0;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 10%  auto;
+  text-align: start; /* OR right */
+  line-height: 2;
+}
+
+.skill-image-l {
+  width: 25%; /* Inherits width relative to the parent element */
+  float: left;
+  margin: 0 5% 5% 0;
+}
+
+.skill-image-r {
+  width: 25%; /* Inherits width relative to the parent element */
+  float: right;
+  margin: 0 0 5% 5%;
+}
+
+.attribution-l {
+  clear: left;
+}
+
+.attribution-r {
+  clear: right;
+}
+
+.contact-me {
+  margin: 8% auto;
+  width: 30%;
+  line-height: 2;
+}
+
+ .contact-me-text {
+   margin: 15% 0;
+ }
+
+.btn {
+  background: #5F6CAF;
+  background-image: -webkit-linear-gradient(top, #5F6CAF, #5F6CAF);
+  background-image: -moz-linear-gradient(top, #5F6CAF, #5F6CAF);
+  background-image: -ms-linear-gradient(top, #5F6CAF, #5F6CAF);
+  background-image: -o-linear-gradient(top, #5F6CAF, #5F6CAF);
+  background-image: linear-gradient(to bottom, #5F6CAF, #5F6CAF);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 23px;
+  padding: 14px 25px 14px 25px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #4b589c;
+  background-image: -webkit-linear-gradient(top, #4b589c, #4b589c);
+  background-image: -moz-linear-gradient(top, #4b589c, #4b589c);
+  background-image: -ms-linear-gradient(top, #4b589c, #4b589c);
+  background-image: -o-linear-gradient(top, #4b589c, #4b589c);
+  background-image: linear-gradient(to bottom, #4b589c, #4b589c);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #5F6CAF;
+  margin: 0;
+  padding: 2% 0 1% 0;
+  line-height: 2;
+  color: white;
+}
+
+.footer-link {
+  padding: 0 1%;
+  color: #243580;
+  text-decoration: none;
+}
